@@ -17,6 +17,7 @@ module.exports = {
   rules: {
     'prettier/prettier': 'warn',
     'no-console': 'error',
+    '@typescript-eslint/indent': 'error',
   },
   settings: {
     react: {
