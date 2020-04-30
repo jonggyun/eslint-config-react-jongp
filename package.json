@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-react-jongp",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Eslint config to use my personal project",
   "main": "index.js",
   "repository": "https://github.com/jonggyun/eslint-config-react-jongp",
