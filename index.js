@@ -1,23 +1,27 @@
 module.exports = {
   parserOptions: {
     ecmaVersion: 6,
-    sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true,
+    },
   },
   env: {
-    es6: true,
     node: true,
+    es6: true,
+    browser: true,
   },
   parser: '@typescript-eslint/parser',
+  plugins: ['react', 'prettier', '@typescript-eslint', 'react-hooks'],
   extends: [
     'eslint:recommended',
-    'plugin:prettier/recommended',
+    'prettier/@typescript-eslint',
+    'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
+    'plugin:prettier/recommended',
   ],
-  plugin: ['react', 'prettier', 'react-hooks', '@typescript-eslint'],
   rules: {
     'prettier/prettier': 'warn',
-    'no-console': 'error',
-    '@typescript-eslint/indent': 'error',
+    'no-unused-vars': 'error',
   },
   settings: {
     react: {
