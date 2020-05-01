@@ -4,13 +4,28 @@
   "description": "Eslint config to use my personal project",
   "main": "index.js",
   "repository": "https://github.com/jonggyun/eslint-config-react-jongp",
-  "author": "JongGyun Park",
+  "author": {
+    "name": "JongGyun Park",
+    "email": "jonggyuni@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/jonggyun/eslint-config-react-jongp/issues",
+    "email": "jonggyuni@gmail.com"
+  },
   "license": "MIT",
   "scripts": {
     "prettier": "prettier --write src/index.js"
   },
   "files": [
     "index.js"
+  ],
+  "keywords": [
+    "eslint",
+    "react",
+    "eslint-config",
+    "eslint config",
+    "react eslint config",
+    "react-eslint-config"
   ],
   "devDependencies": {
     "eslint": "^6.8.0",
